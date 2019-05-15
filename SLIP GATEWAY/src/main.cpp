@@ -176,7 +176,6 @@ void networkToSLIP();
 void setup() {
 
   Serial.begin(115200);
-
   // Set this to the master node (nodeID 0)
   mesh.setNodeID(0);
   mesh.begin();
